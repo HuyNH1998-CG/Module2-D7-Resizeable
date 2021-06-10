@@ -1,6 +1,8 @@
 package shapes;
 
-public class Square extends Shape {
+import resizeable.Resizeable;
+
+public class Square extends Shape implements Resizeable {
     double side;
 
     public Square() {

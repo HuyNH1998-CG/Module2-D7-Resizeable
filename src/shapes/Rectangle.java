@@ -1,6 +1,8 @@
 package shapes;
 
-public class Rectangle extends Shape {
+import resizeable.Resizeable;
+
+public class Rectangle extends Shape implements Resizeable {
     double width;
     double length;
 
